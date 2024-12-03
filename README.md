@@ -4,11 +4,16 @@
 
 ## Description
 
-A brief description of the project, its purpose, and any notable features.
+Here you can find the code, and directions to relevant raw images, data and models that went into the creation of OSCAR (Organoid Segmentation and Cell number Approximation using Regression), a two-step workflow capable of estimating organoid cell numbers from brightfield microscopy images. The first step is a Mask RCNN-based convolutional neural network capable of identifying organoids in brightfield microscopy images and generating an estimate of the area of each organoid in the image. The second step is an empirical multiple linear regression model relating the number of cells in an organoid to the area of the organoid estimated by the Mask RCNN model. 
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- MASK R-CNN publication ready.ipynb  contains python code in Jupyter Notebook format used to develop train and test the MaskRCNN model
+- eMLR publication ready.ipynb contains python code in Jupyter Notebook format used to develop train and test the emperical multiple linear regression model
+- Model locattions.txt contains instructions on how models can be downloaded and accessed
 
+## Access
+
+We make OSCAR free to use in an easily accessible format as a Google Colab notebook, where anyone, regardless of coding sklls, can upload organoid images and obtain organoid cell number estimates.
+
+`[OSCAR can be accessed here.](https://link_to_your_software)`
