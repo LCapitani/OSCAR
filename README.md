@@ -16,4 +16,4 @@ Here you can find the code, and directions to relevant raw images, data and mode
 
 We make OSCAR free to use in an easily accessible format as a Google Colab notebook, where anyone, regardless of coding sklls, can upload organoid images and obtain organoid cell number estimates.
 
-`[OSCAR can be accessed here.](https://link_to_your_software)`
+[OSCAR can be accessed here.](https://link_to_your_software)
