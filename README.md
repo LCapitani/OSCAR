@@ -1,6 +1,6 @@
 # OSCAR: An Online ML-Powered Tool for Organoid Cell Counting using Brightfield Images 
 
-![Logo](https://upload.wikimedia.org/wikipedia/commons/e/ef/Cardiff_University_%28logo%29.svg =400x)
+![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTilnfd7wntKPiGUlI2gp2Q5dYw6at1VVzeaQ&s)
 
 ## Description
 
