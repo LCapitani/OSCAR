@@ -18,7 +18,7 @@ Raw data (and accompaning meta data) and developed models are available on FigSh
 
 We make OSCAR free to use in an easily accessible format as a Google Colab notebook, where anyone, regardless of coding sklls, can upload organoid images and obtain organoid cell number estimates.
 
-[OSCAR can be accessed here.]([https://link_to_your_software](https://colab.research.google.com/drive/1paRiDvvAu4ezZEesSdUH-fO_BJ8eJgsY?usp=sharing))
+[OSCAR can be accessed here.]([https://colab.research.google.com/drive/1paRiDvvAu4ezZEesSdUH-fO_BJ8eJgsY?usp=sharing])
 
 ## Citation
 
