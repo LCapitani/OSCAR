@@ -24,3 +24,21 @@ We make OSCAR free to use in an easily accessible format as a Google Colab noteb
 
 If you use OSCAR and publish any work in which it was involved, please cite our work:
 *PAPER CITATION TO BE INSERTED.*
+
+Follow the steps below to set up your enviroment:
+
+  1. Install Anaconda (https://anaconda.org)
+  2. Create a conda enviroment in terminal using the command below using python 3.7.11
+        conda create --name maskrcnn python==3.7.11
+  3. Follow this installation guide video to clone the modified MaskRCNN repository
+        https://www.youtube.com/watch?v=Fu_km7FXyaU&pp=ygUlMjg0IGRpZ2l0YWxzcmVlbmkgaW5zdGFsbGluZyBtYXNrcmNubg%3D%3D
+  4. Use the **requirements.txt ** file available in this repository to install the necessary python packages
+  5. To test you’ve installed everything correctly try running the command in python
+        import maskrcnn
+  6. MaskRCNN was further modified to be compatible with grayscale images. Replace the ‘mask_rcnn_tf2-1.0-py3.7.egg’ found at the following path ‘C:\Anaconda\envs\maskrcnn\Lib\site-packages’ with the ‘mask_rcnn_tf2-1.0-py3.7.egg’ found in this repository. If you are on mac or linux, you can find the path of the conda enviroment folder by activating the enviroment using the command
+
+     conda activate maskrcnn
+
+     conda info --envs
+     
+You should be good to go!! Feel free to raise any issues that come up on this repo :)
